@@ -4,9 +4,10 @@ const Footer = () => {
     return (
         <Fragment>
             <div className="pushfoot"></div>
+            <hr></hr>
             <div className = "footer">
                 <p>Author: Alexis De Almeyda</p>
-                <p><a href="mailto:alexisdealmeyda@gmail.com">alexisdealmeyda@gmail.com</a></p>           
+                <p><a id="mail" href="mailto:alexisdealmeyda@gmail.com">alexisdealmeyda@gmail.com</a></p>           
             </div>            
         </Fragment>
     )

@@ -12,7 +12,7 @@ const Header = () => {
                     <img src="/images/home-icon.svg" alt="HOME" />
                         <span className="spans">FORM</span>
                     </a>
-                    <a>
+                    <a href="/appointments">
                     <img  src="/images/search-icon.svg" alt="SEARCH" />
                         <span className="spans">APPOINTMENTS</span>
                     </a>

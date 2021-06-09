@@ -3,6 +3,11 @@ import Formulario from "./components/Formulario";
 import Cita from "./components/Cita";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 
 function App() {
@@ -41,32 +46,39 @@ function App() {
       guardarCitas(nuevasCitas);
     }
   //Mensaje condicional
-  const titulo = citas.length === 0 ? "No Appointments" : "Appointments List"
+  const titulo = citas.length === 0 ? "No Appointments" : "Appointments List:"
 
   return (
     <Fragment>
-      <Header />
-      <div className="container">
-        <div className="row">
-          <div className="one-half row">
-            <Formulario 
-              crearCita={crearCita}
-            />
+      <Router>
+        <Header />
+        <Switch>
+        <div className="container">
+          <div className="row">
+            <Route path="/home">
+              <div className="one-half row">
+                <Formulario 
+                  crearCita={crearCita}
+                />
+              </div>
+            </Route>
+            <Route path="/appointments">
+              <div className="one-half row">
+                <h4>{titulo}</h4>
+                {citas.map(cita => (
+                  <Cita 
+                  key={cita.id}
+                  cita={cita}
+                  eliminarCita={eliminarCita}               
+                  />
+              ))}
+              </div>
+            </Route>
           </div>
-          <div className="one-half row">
-            <h4>{titulo}</h4>
-            {citas.map(cita => (
-              <Cita 
-              key={cita.id}
-              cita={cita}
-              eliminarCita={eliminarCita}               
-              />
-           ))}
-          </div>
-
         </div>
-      </div>
-      <Footer /> 
+        </Switch>
+        <Footer /> 
+      </Router>
     </Fragment>
   );
 }

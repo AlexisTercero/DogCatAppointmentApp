@@ -59,7 +59,7 @@ const Formulario = ({crearCita}) => {
 
     return ( 
        <Fragment>
-           <h4>Add an appointment</h4>
+           <h4>Add an appointment:</h4>
 
            { error ? <p className = "alerta-error">All fields are required</p> : null }
           
