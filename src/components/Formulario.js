@@ -59,7 +59,7 @@ const Formulario = ({crearCita}) => {
 
     return ( 
        <Fragment>
-           <h2>Crear Cita:</h2>
+           <h3>Add an appointment</h3>
 
            { error ? <p className = "alerta-error">Todos los campos son obligatorios</p> : null }
           
@@ -109,7 +109,7 @@ const Formulario = ({crearCita}) => {
                 <button
                     type="submit"
                     className="u-full-width button-primary"
-                >Agregar Cita</button>
+                >Add</button>
                 
            </form>
        </Fragment>

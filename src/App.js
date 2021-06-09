@@ -1,7 +1,8 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import Formulario from "./components/Formulario";
 import Cita from "./components/Cita";
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -40,11 +41,12 @@ function App() {
       guardarCitas(nuevasCitas);
     }
   //Mensaje condicional
-  const titulo = citas.length === 0 ? "No hay citas" : "Adminitra tus citas"
+  const titulo = citas.length === 0 ? "No Appointments" : "Appointments List"
 
   return (
     <Fragment>
-      <h1>Administrador de Pacientes</h1>
+      <Header />
+      {/* <h1>Administrador de Pacientes</h1> */}
       <div className="container">
         <div className="row">
           <div className="one-half column">
@@ -53,7 +55,7 @@ function App() {
             />
           </div>
           <div className="one-half column">
-            <h2>{titulo}</h2>
+            <h3>{titulo}</h3>
             {citas.map(cita => (
               <Cita 
               key={cita.id}
@@ -65,7 +67,7 @@ function App() {
 
         </div>
       </div>
-
+      <Footer /> 
     </Fragment>
   );
 }
