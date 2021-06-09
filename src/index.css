@@ -8,16 +8,18 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #ababab;
+  background-color: #202020;
 }
 h1, h2, h3, h4 {
-  color: rgba(0, 0, 0, 0.738);
+  color: rgb(255, 255, 255);
   margin-top: 9px;
   font-family: Helvetica !important;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .container{
@@ -47,7 +49,7 @@ h1, h2, h3, h4 {
 }
 
 label {
-  color: rgba(0, 0, 0, 0.84);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 input[type="date"],
@@ -65,7 +67,7 @@ input[type="time"] {
 .cita {
   padding: 2rem;
   background: rgba(255, 255, 255, 0.9);
-  border: 2px solid rgba(0, 0, 0, 0.84);
+  border: 3px solid #000012;
   color: rgba(0, 0, 0, 0.847);
   margin-bottom: 21px !important;
 }
@@ -88,33 +90,37 @@ input[type="time"] {
 }
 
 .button-primary{
-  background-color: #009471 !important;
-  border: none !important;
-  border-radius: 0;
+  background-color: transparent !important;
+  border: 3px solid #00be92 !important;
+  border-radius: 9px;
   box-shadow: 1px 1.5px 2px #0000003e;
   transition: 250ms;
+  height: 43px !important;
 
 }
 
 .button-primary:hover{
-  font-size: 14px;
+  font-size: 15px;
   transform: scale(0.99);
   background-color: #00be92 !important;
 }
 
 .button.eliminar{
-  background-color: #AF2B27;
-  color: white;
+  background-color: transparent !important;
+  border: 3px solid #cf0700 !important;
+  color: #cf0700;
   margin-top: 2rem;
-  border-radius: 0;
+  border-radius: 9px;
   border: none;
   transition: 250ms;
   box-shadow: 1px 1.5px 2px #0000003e;
+  height: 43px !important;
 }
 
 .button.eliminar:hover{
-  font-size: 14px;
-  background-color: #cf0700;
+  font-size: 15px;
+  background-color: #cf0700 !important;
+  color: white;
   transform: scale(0.99);
 }
 
@@ -140,7 +146,7 @@ input[type="time"] {
   display: flex;
   flex-flow: row nowrap;
   height: 70px;
-  justify-content: space-around;
+  justify-content:space-evenly;
   margin: 0px;
   padding: 0px;
   margin-right: auto;
