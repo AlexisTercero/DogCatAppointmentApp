@@ -64,25 +64,25 @@ const Formulario = ({crearCita}) => {
            { error ? <p className = "alerta-error">All fields are required</p> : null }
           
            <form onSubmit={submitCita} >
-                <label>Nombre Mascota</label>
+                <label>Pet's Name</label>
                 <input
                     type="text"
                     name="mascota"
                     className="u-full-width"
-                    placeholder="Nombre Mascota"
+                    placeholder="Pet´s Name"
                     onChange={actualizarState} 
                     value={mascota}               
                 />
-                <label>Nombre Dueño</label>
+                <label>Owner's Name</label>
                 <input
                     type="text"
                     name="propietario"
                     className="u-full-width"
-                    placeholder="Nombre Dueño de la mascota"
+                    placeholder="Owner's Name"
                     onChange={actualizarState} 
                     value={propietario}                  
                 />
-                <label>Fecha</label>
+                <label>Date</label>
                 <input
                     type="date"
                     name="fecha"
@@ -90,7 +90,7 @@ const Formulario = ({crearCita}) => {
                     onChange={actualizarState} 
                     value={fecha}                  
                 />
-                <label>Horario</label>
+                <label>Hour</label>
                 <input
                     type="time"
                     name="hora"
@@ -98,7 +98,7 @@ const Formulario = ({crearCita}) => {
                     onChange={actualizarState} 
                     value={hora}                
                 />
-                <label>Síntomas</label>
+                <label>Symtoms</label>
                 <textarea
                     className="u-full-width"
                     name="sintomas"
@@ -109,7 +109,7 @@ const Formulario = ({crearCita}) => {
                 <button
                     type="submit"
                     className="u-full-width button-primary"
-                >Add</button>
+                >Add +</button>
                 
            </form>
        </Fragment>
