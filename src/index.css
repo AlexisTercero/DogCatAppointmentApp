@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #202020;
+  background-color: #424242;
 }
 h1, h2, h3, h4 {
   color: rgb(255, 255, 255);
@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
   font-weight: 400;
   letter-spacing: 0.5px;
 }
+
 
 .container{
   margin-top: 70px;
@@ -96,6 +97,8 @@ input[type="time"] {
   box-shadow: 1px 1.5px 2px #0000003e;
   transition: 250ms;
   height: 43px !important;
+  display:flex;
+  justify-content: flex-end;
 
 }
 

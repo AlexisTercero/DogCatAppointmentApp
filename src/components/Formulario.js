@@ -108,8 +108,8 @@ const Formulario = ({crearCita}) => {
                 
                 <button
                     type="submit"
-                    className="u-full-width button-primary"
-                >Add +</button>
+                    className="button-primary"
+                >Add</button>
                 
            </form>
        </Fragment>
