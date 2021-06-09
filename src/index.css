@@ -14,8 +14,8 @@ body {
   flex-direction: column;
   background-color: #c2c4ee;
 }
-h1, h2, h3  {
-  color: #333;
+h1, h2, h3, h4 {
+  color: rgba(4, 0, 66, 0.703);
   margin-top: 9px;
   font-family: Helvetica !important;
   letter-spacing: 1px;
@@ -61,8 +61,8 @@ input[type="time"] {
 
 .cita {
   padding: 2rem;
-  background: white;
-  border-bottom: 1px solid #e1e1e1;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #a4a4a4c0;
   color: black;
 }
 
@@ -90,19 +90,22 @@ input[type="time"] {
 
 .button.eliminar,
 .button.eliminar:hover {
-  background-color: #B23279;
+  background-color: #b23232;
   color: white;
   margin-top: 2rem;
 }
 
 .alerta-error {
-  background-color: white;
+  background-color: rgb(255, 243, 243);
   color: red;
-  padding: 1rem;
-  font-size: 2rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid red;
+  border-radius: 3px;
   text-transform: uppercase;
+  letter-spacing: 3px;
   text-align: center;
-  font-family:   Helvetica, sans-serif;
+  font-family:Helvetica, sans-serif;
 } 
 
 #navmenu{

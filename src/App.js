@@ -55,7 +55,7 @@ function App() {
             />
           </div>
           <div className="one-half column">
-            <h3>{titulo}</h3>
+            <h4>{titulo}</h4>
             {citas.map(cita => (
               <Cita 
               key={cita.id}

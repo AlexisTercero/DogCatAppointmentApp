@@ -59,9 +59,9 @@ const Formulario = ({crearCita}) => {
 
     return ( 
        <Fragment>
-           <h3>Add an appointment</h3>
+           <h4>Add an appointment</h4>
 
-           { error ? <p className = "alerta-error">Todos los campos son obligatorios</p> : null }
+           { error ? <p className = "alerta-error">All fields are required</p> : null }
           
            <form onSubmit={submitCita} >
                 <label>Nombre Mascota</label>
