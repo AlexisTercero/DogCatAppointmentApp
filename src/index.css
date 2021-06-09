@@ -232,6 +232,7 @@ a#logo{
 
 hr{
   border-color: rgba(98, 98, 98, 0.128);
+  margin-bottom: 0;
 }
 
 
@@ -243,6 +244,11 @@ hr{
   font-size: 13px;
   color: rgb(98, 98, 98);
   font-style: oblique;
+}
+
+.footer p {
+  margin-top: 11px;
+  margin-bottom: 3px !important;
 }
 
 #mail{
