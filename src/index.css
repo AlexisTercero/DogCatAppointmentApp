@@ -174,7 +174,8 @@ a#logo {
   font-size: 0;
   display: inline-block;
   cursor: pointer;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
+  min-width: 30px;
 }
 
 #navmenu div {
@@ -185,7 +186,7 @@ a#logo {
 #navmenu div a {
   display: flex;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 3px;
   color: white !important;
   text-decoration: none !important;
 }
@@ -194,13 +195,14 @@ a#logo {
   min-width: 20px;
   width: 20px;
   z-index: auto;
-  margin-right: 3px;
+  margin-right: 2px;
+  margin-left: 3px;
 }
 
 .spans {
   color: rgb(255, 255, 255);
-  font-size: 13px;
-  letter-spacing: 1.52px;
+  font-size: 12px;
+  letter-spacing: 1px;
   line-height: 1.08;
   padding: 2px 0px;
   white-space: nowrap;
@@ -245,7 +247,7 @@ hr {
   position: absolute;
   display: flex;
   justify-content: space-evenly;
-  font-size: 13px;
+  font-size: 12px;
   color: rgb(76, 76, 76);
   background-color: #0000000f;
   font-style: oblique;
@@ -254,7 +256,9 @@ hr {
 .footer p {
   margin-top: 11px;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
+  margin-left: 6px;
+  margin-right: 6px;
   margin-bottom: 6px !important;
 }
 
