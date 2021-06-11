@@ -5,10 +5,10 @@ const Header = () => {
     <Fragment>
       <nav id="navmenu">
         <a id="logo">
-          <img src="/images/logo.svg" alt="Disney+" />
+          <img src="/images/logo.svg" alt="Dog&Cat logo" />
         </a>
         <div>
-          <a href="/home">
+          <a href="/">
             <img src="/images/home-icon.svg" alt="HOME" />
             <span className="spans">FORM</span>
           </a>

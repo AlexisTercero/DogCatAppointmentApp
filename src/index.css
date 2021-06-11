@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #b0cfc9;
+  background-color: #bbd4cf;
   /* background-image: url("https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350") !important; */
 }
 h1,
@@ -61,6 +61,12 @@ input[type="time"] {
   box-shadow: none;
   box-sizing: border-box;
   border-radius: 0;
+}
+
+.u-full-width:focus {
+  outline: none !important;
+  border:1px solid #38239f !important;
+  box-shadow: 0 0 5px #a593ff;
 }
 
 .cita {
