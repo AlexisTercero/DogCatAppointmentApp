@@ -12,7 +12,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   background-color: #bbd4cf;
-  /* background-image: url("https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350") !important; */
+  
 }
 h1,
 h2,
@@ -25,7 +25,9 @@ h4 {
 }
 
 .container {
+  height: 60vh;
   margin-top: 70px;
+  margin-bottom: 60px;
   padding: 1rem;
 }
 
@@ -244,13 +246,16 @@ hr {
   display: flex;
   justify-content: space-evenly;
   font-size: 13px;
-  color: rgb(98, 98, 98);
+  color: rgb(76, 76, 76);
+  background-color: #0000000f;
   font-style: oblique;
 }
 
 .footer p {
   margin-top: 11px;
-  margin-bottom: 3px !important;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 6px !important;
 }
 
 #mail {
