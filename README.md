@@ -27,7 +27,7 @@
 ## 🚀 Installation
 
 ```
-$ git clone 
+$ git clone https://github.com/AlexisTercero/DogCatAppointmentApp.git
 $ cd 
 $ npm install
 $ npm start
