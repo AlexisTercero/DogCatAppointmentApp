@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <Fragment>
       <nav id="navmenu">
-        <a id="logo">
+        <a href="/" id="logo">
           <img src="/images/logo.svg" alt="Dog&Cat logo" />
         </a>
         <div>

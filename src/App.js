@@ -3,7 +3,7 @@ import Formulario from "./components/Formulario";
 import Cita from "./components/Cita";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import catdog from "./images/catdog.svg"
 
 
@@ -47,7 +47,7 @@ function App() {
       <div style={{ backgroundImage: `url(${catdog})` }}>
       <Router>
         <Header />
-        <Switch>
+ 
           <div className="container"              
           >
             <div className="row">
@@ -70,7 +70,7 @@ function App() {
               </Route>
             </div>
           </div>
-        </Switch>
+
         <Footer />
       </Router>
       </div>
