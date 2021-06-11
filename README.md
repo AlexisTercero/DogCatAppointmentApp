@@ -1,12 +1,12 @@
 # <div align="center"> Dog & Cat Appointment App 📋</div>
-
+## <a href="https://xenodochial-minsky-87265a.netlify.app/" 
 <a href="">
 <img src="./form.png"/>
 </a>
 <a href="">
 <img src="./appointments.png"/>
 </a>
-## <a href="https://xenodochial-minsky-87265a.netlify.app/" target="_blank">LIVE DEMO</a>
+target="_blank">LIVE DEMO</a>
 <p align="center">Veterinary appointment app built with React. You can create & delete an appointment with it</p>
 
 ## 🛠️ Technologies
