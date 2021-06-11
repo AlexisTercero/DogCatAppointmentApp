@@ -51,7 +51,7 @@ function App() {
           <div className="container"              
           >
             <div className="row">
-              <Route exact path="/index">
+              <Route exact path="/">
                 <div className="one-half row">
                   <Formulario crearCita={crearCita} />
                 </div>
