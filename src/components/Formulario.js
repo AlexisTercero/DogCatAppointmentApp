@@ -97,7 +97,7 @@ const Formulario = ({ crearCita }) => {
           onChange={actualizarState}
           value={hora}
         />
-        <label>Symtoms</label>
+        <label>Symptoms</label>
         <textarea
           className="u-full-width"
           name="sintomas"

@@ -15,7 +15,7 @@ const Cita = ({ cita, eliminarCita }) => (
       Hour: <span>{cita.hora}</span>{" "}
     </p>
     <p>
-      Symtoms: <span>{cita.sintomas}</span>{" "}
+      Symptoms: <span>{cita.sintomas}</span>{" "}
     </p>
 
     <button className="button eliminar " onClick={() => eliminarCita(cita.id)}>
