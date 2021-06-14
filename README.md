@@ -9,6 +9,9 @@
 
 <p align="center">Veterinary appointment app built with React. You can create & delete an appointment with it</p>
 
+<p align="center">I made everything in this little proyect from the code to the graphics and illustrations. 
+I used React.JS, Adobe Illustrator and Adobe Photoshop.</p>
+
 ## 🛠️ Technologies
 
 <ul>
